@@ -44,6 +44,17 @@ h6 {
     background: #450033 !important;
 }
 
+.btn-blue{
+    background: rgb(0,169,253);
+    background: -moz-linear-gradient(180deg, rgba(0,169,253,1) 0%, rgba(0,121,219,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(0,169,253,1) 0%, rgba(0,121,219,1) 100%);
+    background: linear-gradient(180deg, rgba(0,169,253,1) 0%, rgba(0,121,219,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00a9fd",endColorstr="#0079db",GradientType=1);
+}
+.btn-blue:hover{
+    background: rgb(1, 95, 143) !important;
+}
+
 .bg-dark {
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f40086+0,ce007f+100 */
     background: #f40086 !important;
